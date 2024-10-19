@@ -1,0 +1,29 @@
+{
+  "name": "neverthrow-utils",
+  "version": "1.0.1",
+  "description": "Some utilities making working with neverthrow easier",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "neverthrow",
+    "retry",
+    "request",
+    "error-handling"
+  ],
+  "author": "Giulio Zani",
+  "license": "MIT",
+  "peerDependencies": {
+    "neverthrow": "^4.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.18.114",
+    "typescript": "^4.9.5"
+  }
+}
